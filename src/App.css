@@ -1,0 +1,44 @@
+
+
+#root {
+  margin: 0 auto;
+  width: 500px;
+  height: 500px;
+}
+
+.App {
+  text-align: center;
+  font-family: "Comic Sans MS";
+  border-color: coral;
+}
+
+#board button {
+  width: 30px;
+  height: 30px;
+  margin: 3px;
+  border-radius: 5px;
+  background-color: aqua;
+}
+
+#board button.pressed {
+  opacity: 0.3;
+}
+
+#word {
+  font-size: 50px;
+  margin: 50px 10px;
+}
+
+#word span {
+  margin: 5px;
+}
+
+#count {
+  margin: 20px 20px;
+  text-decoration: underline;
+}
+
+#reboot {
+  border-radius: 5px;
+  background-color: chartreuse;
+}
